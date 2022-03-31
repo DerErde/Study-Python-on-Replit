@@ -1,16 +1,18 @@
-# comparison and "else" (True / if)
+# picking random numbers
 
-#weight = 190.4
-#light_is_on = weight < 195
+import random
 
-light_is_on = True #False or True
+# print(random.randint(1, 10))
 
-if light_is_on:
-  print('The light is on!')
-else:
-  print("We're in the dark")
+# print(random.random()) # generates a random number 0.237847834
 
-weight = 190.4
+# print(random.randint(-100, 999))
 
-if weight < 195:
-  print("You're under weight :)")
+answer = random.randint(1, 3)
+
+if answer == 1:
+  print("Yes")
+if answer == 2:
+  print("No")
+if answer == 3:
+  print("Maybe")
