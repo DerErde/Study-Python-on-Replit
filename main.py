@@ -1,10 +1,8 @@
-# strings
+# useing varibles in strings
 
-age = 32
-weight = 190.4
+day = 3
+month = 'September'
+temp = -15
+day_name = 'Tuesday'
 
-shirt = "blue"
-
-store = "Nick's Pizza Shop, the 'best' there is"
-
-print(store)
+print(f"Today is {day_name} {month} {day} and it's {temp} degrees outside")
