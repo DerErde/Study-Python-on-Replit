@@ -1,1 +1,1 @@
-print('Hello, the test.')
+print('The first programm. Print the text.')
