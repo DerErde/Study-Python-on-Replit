@@ -1,7 +1,10 @@
-day = 21
+# strings
 
-temp = -15
+age = 32
+weight = 190.4
 
-weight = 190.423903
+shirt = "blue"
 
-print(weight * 2)
+store = "Nick's Pizza Shop, the 'best' there is"
+
+print(store)
