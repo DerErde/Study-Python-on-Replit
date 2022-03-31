@@ -1,8 +1,11 @@
-# useing varibles in strings
+# booleans and "if" statements (true or false, 1 or 0)
 
-day = 3
-month = 'September'
-temp = -15
-day_name = 'Tuesday'
+day = 21
+weight = 190.4
+month = 'October'
 
-print(f"Today is {day_name} {month} {day} and it's {temp} degrees outside")
+light_is_on = True
+
+if light_is_on:
+  print('The light is on!')
+  
